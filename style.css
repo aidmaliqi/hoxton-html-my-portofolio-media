@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+.header{
+    
+    display: grid;
+    background-color: yellowgreen;
+    grid-template-columns: 1fr auto ;
+    /*background-image:url("buterfly.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+}
+section{
+    display: grid;
+    background-color:yellowgreen;
+}
+.header-name{
+    
+    display: grid;
+    background-color: grey;
+    grid-template-columns: auto auto;
+    padding: 10px ;
+    margin: 20px;
+    border-radius: 10px;
+}
+.header-name ul{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    justify-content: end;
+    gap: 4rem;
+    
+}
+.header-card{
+    width: 70vh;
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 20px;
+    margin: 100px;
+    
+}
+h2 {
+    padding-bottom: 1rem;
+    justify-self: center;
+    color: orange;
+}
+.svg-image{
+    padding: 20px;
+    width: 300px;
+    place-self: center;
+}
+/*.wtf{
+    position: absolute;
+  top: -2rem;
+  right: 0rem;
+
+  background-color: #ede6e1;
+  width: 50vw;
+  height: 150px;
+
+  transform: rotate(5deg);
+
+  border-radius: 30% 40% 20% 70% / 50% 50% 70% 80%;
+}*/
+
+.main{
+    background-color: gray;
+    display: grid;
+    grid-template-columns:auto auto auto ; 
+    gap: 1rem;
+    padding: 20px;
+}
+.main div{
+    border-radius: 10px;
+    outline: 1px white solid;
+    background-color: coral;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#pro{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    
+}
+#github{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    display:inline-block;
+   padding: 20px;
+}
+
+
+
+.footer{
+    display: grid;
+    background-color: yellowgreen;
+    grid-auto-flow: row;
+    gap: 1rem;
+    place-content: center;
+    padding: 20px 0px;
+    
+}
+.footer div ul  {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8rem;
+    padding: 10px;
+}
+#exp{
+    text-align: center;
+    text-align: center;
+   
+    color: white;
+    font-size: 30px;
+}
+.footer div{
+    background-color: gray;
+    display: grid;
+    border-radius: 10px;
+    border: 1px white solid;
+    
+}
+.project1-photo{
+    max-width: 100%;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+}
+.nav{
+    display: grid;
+    background-color: yellowgreen;
+}
+.nav button{
+    padding:20px;
+    scroll-behavior: smooth;
+    background-color: coral;
+}
